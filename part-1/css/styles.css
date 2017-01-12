@@ -16,33 +16,48 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 1107px;
   margin: auto;
   border: 3px solid black;
   background-color: #eee;
+  position: relative;
+  padding: 112px;
 }
 
 .box {
   width: 200px;
   height: 200px;
+  position: absolute;
 }
 
 .red {
   background-color: pink;
+  right: 50%;
+  top: 25%;
 }
 
 .green {
   background-color: lightgreen;
+  left: 32%;
+  top: -24%;
 }
 
 .blue {
   background-color: lightblue;
+  left: 20%;
+  top: 25%;
+  z-index: 2;
 }
 
 .orange {
   background-color: orange;
+  left: 20%;
+  top: 80%;
 }
 
 .yellow {
   background-color: yellow;
+  width: 120%;
+  top: 136%;
+  left: 1px;
 }
